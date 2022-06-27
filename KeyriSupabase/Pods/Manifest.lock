@@ -1,0 +1,16 @@
+PODS:
+  - keyri-pod (1.0.5)
+
+DEPENDENCIES:
+  - keyri-pod
+
+SPEC REPOS:
+  trunk:
+    - keyri-pod
+
+SPEC CHECKSUMS:
+  keyri-pod: f5a49cd572f472fac5d02d6b25601feadfb380a2
+
+PODFILE CHECKSUM: 03c4956f3c213423bff868d42a67124abc836273
+
+COCOAPODS: 1.11.3

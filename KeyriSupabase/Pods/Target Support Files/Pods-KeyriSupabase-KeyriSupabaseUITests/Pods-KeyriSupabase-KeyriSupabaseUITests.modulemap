@@ -1,0 +1,6 @@
+framework module Pods_KeyriSupabase_KeyriSupabaseUITests {
+  umbrella header "Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

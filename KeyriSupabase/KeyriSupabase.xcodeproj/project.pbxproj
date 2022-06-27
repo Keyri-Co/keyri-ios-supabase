@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2045A22E286A4DB000860FB3 /* KeyriSupabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A22D286A4DB000860FB3 /* KeyriSupabaseApp.swift */; };
+		2045A230286A4DB000860FB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A22F286A4DB000860FB3 /* ContentView.swift */; };
+		2045A232286A4DB100860FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A231286A4DB100860FB3 /* Assets.xcassets */; };
+		2045A235286A4DB100860FB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045A234286A4DB100860FB3 /* Preview Assets.xcassets */; };
+		2045A23F286A4DB100860FB3 /* KeyriSupabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A23E286A4DB100860FB3 /* KeyriSupabaseTests.swift */; };
+		2045A249286A4DB100860FB3 /* KeyriSupabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A248286A4DB100860FB3 /* KeyriSupabaseUITests.swift */; };
+		2045A24B286A4DB100860FB3 /* KeyriSupabaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045A24A286A4DB100860FB3 /* KeyriSupabaseUITestsLaunchTests.swift */; };
+		B615ED6A47F10EBF23ACA956 /* Pods_KeyriSupabase_KeyriSupabaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E3C8BAD70C7D40A2FB977 /* Pods_KeyriSupabase_KeyriSupabaseUITests.framework */; };
+		BB9E673E1E3449D60FFD0FC4 /* Pods_KeyriSupabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2E7CD48C77C5AE6A8079DD /* Pods_KeyriSupabase.framework */; };
+		F905769D56B20C2F4C185F87 /* Pods_KeyriSupabaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12D41C179A47001A6EEB1B7 /* Pods_KeyriSupabaseTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2045A23B286A4DB100860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A222286A4DB000860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A229286A4DB000860FB3;
+			remoteInfo = KeyriSupabase;
+		};
+		2045A245286A4DB100860FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2045A222286A4DB000860FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2045A229286A4DB000860FB3;
+			remoteInfo = KeyriSupabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035E3C8BAD70C7D40A2FB977 /* Pods_KeyriSupabase_KeyriSupabaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriSupabase_KeyriSupabaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A22A286A4DB000860FB3 /* KeyriSupabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyriSupabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A22D286A4DB000860FB3 /* KeyriSupabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriSupabaseApp.swift; sourceTree = "<group>"; };
+		2045A22F286A4DB000860FB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2045A231286A4DB100860FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2045A234286A4DB100860FB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2045A23A286A4DB100860FB3 /* KeyriSupabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriSupabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A23E286A4DB100860FB3 /* KeyriSupabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriSupabaseTests.swift; sourceTree = "<group>"; };
+		2045A244286A4DB100860FB3 /* KeyriSupabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyriSupabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2045A248286A4DB100860FB3 /* KeyriSupabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriSupabaseUITests.swift; sourceTree = "<group>"; };
+		2045A24A286A4DB100860FB3 /* KeyriSupabaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyriSupabaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		503CEA936BBAB7F036855E8E /* Pods-KeyriSupabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriSupabase.debug.xcconfig"; path = "Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase.debug.xcconfig"; sourceTree = "<group>"; };
+		5F2E7CD48C77C5AE6A8079DD /* Pods_KeyriSupabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriSupabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8143E0BCA4041592110F66E5 /* Pods-KeyriSupabaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriSupabaseTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriSupabaseTests/Pods-KeyriSupabaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D473E4EEEBDEC996F93574BF /* Pods-KeyriSupabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriSupabase.release.xcconfig"; path = "Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase.release.xcconfig"; sourceTree = "<group>"; };
+		DA25086539767FD05B5692DA /* Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB717240AF5AACF185A34FA3 /* Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig"; path = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E12D41C179A47001A6EEB1B7 /* Pods_KeyriSupabaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyriSupabaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFEEEF1C58D4E171E32D887 /* Pods-KeyriSupabaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyriSupabaseTests.release.xcconfig"; path = "Target Support Files/Pods-KeyriSupabaseTests/Pods-KeyriSupabaseTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2045A227286A4DB000860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9E673E1E3449D60FFD0FC4 /* Pods_KeyriSupabase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A237286A4DB100860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F905769D56B20C2F4C185F87 /* Pods_KeyriSupabaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A241286A4DB100860FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B615ED6A47F10EBF23ACA956 /* Pods_KeyriSupabase_KeyriSupabaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0D4EDB3B20D132ED4FB78A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503CEA936BBAB7F036855E8E /* Pods-KeyriSupabase.debug.xcconfig */,
+				D473E4EEEBDEC996F93574BF /* Pods-KeyriSupabase.release.xcconfig */,
+				DA25086539767FD05B5692DA /* Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig */,
+				DB717240AF5AACF185A34FA3 /* Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig */,
+				8143E0BCA4041592110F66E5 /* Pods-KeyriSupabaseTests.debug.xcconfig */,
+				FBFEEEF1C58D4E171E32D887 /* Pods-KeyriSupabaseTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0D3BE8F98BA100E9DBC06B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F2E7CD48C77C5AE6A8079DD /* Pods_KeyriSupabase.framework */,
+				035E3C8BAD70C7D40A2FB977 /* Pods_KeyriSupabase_KeyriSupabaseUITests.framework */,
+				E12D41C179A47001A6EEB1B7 /* Pods_KeyriSupabaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2045A221286A4DB000860FB3 = {
+			isa = PBXGroup;
+			children = (
+				2045A22C286A4DB000860FB3 /* KeyriSupabase */,
+				2045A23D286A4DB100860FB3 /* KeyriSupabaseTests */,
+				2045A247286A4DB100860FB3 /* KeyriSupabaseUITests */,
+				2045A22B286A4DB000860FB3 /* Products */,
+				0A0D4EDB3B20D132ED4FB78A /* Pods */,
+				0D3BE8F98BA100E9DBC06B74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2045A22B286A4DB000860FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2045A22A286A4DB000860FB3 /* KeyriSupabase.app */,
+				2045A23A286A4DB100860FB3 /* KeyriSupabaseTests.xctest */,
+				2045A244286A4DB100860FB3 /* KeyriSupabaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2045A22C286A4DB000860FB3 /* KeyriSupabase */ = {
+			isa = PBXGroup;
+			children = (
+				2045A22D286A4DB000860FB3 /* KeyriSupabaseApp.swift */,
+				2045A22F286A4DB000860FB3 /* ContentView.swift */,
+				2045A231286A4DB100860FB3 /* Assets.xcassets */,
+				2045A233286A4DB100860FB3 /* Preview Content */,
+			);
+			path = KeyriSupabase;
+			sourceTree = "<group>";
+		};
+		2045A233286A4DB100860FB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2045A234286A4DB100860FB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2045A23D286A4DB100860FB3 /* KeyriSupabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A23E286A4DB100860FB3 /* KeyriSupabaseTests.swift */,
+			);
+			path = KeyriSupabaseTests;
+			sourceTree = "<group>";
+		};
+		2045A247286A4DB100860FB3 /* KeyriSupabaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2045A248286A4DB100860FB3 /* KeyriSupabaseUITests.swift */,
+				2045A24A286A4DB100860FB3 /* KeyriSupabaseUITestsLaunchTests.swift */,
+			);
+			path = KeyriSupabaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2045A229286A4DB000860FB3 /* KeyriSupabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A24E286A4DB100860FB3 /* Build configuration list for PBXNativeTarget "KeyriSupabase" */;
+			buildPhases = (
+				C2F2DC01DFA80EF9861F6B1D /* [CP] Check Pods Manifest.lock */,
+				2045A226286A4DB000860FB3 /* Sources */,
+				2045A227286A4DB000860FB3 /* Frameworks */,
+				2045A228286A4DB000860FB3 /* Resources */,
+				40A250F73B9A022377D83AEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyriSupabase;
+			productName = KeyriSupabase;
+			productReference = 2045A22A286A4DB000860FB3 /* KeyriSupabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2045A239286A4DB100860FB3 /* KeyriSupabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A251286A4DB100860FB3 /* Build configuration list for PBXNativeTarget "KeyriSupabaseTests" */;
+			buildPhases = (
+				CC6802A0EC424FE620825354 /* [CP] Check Pods Manifest.lock */,
+				2045A236286A4DB100860FB3 /* Sources */,
+				2045A237286A4DB100860FB3 /* Frameworks */,
+				2045A238286A4DB100860FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A23C286A4DB100860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriSupabaseTests;
+			productName = KeyriSupabaseTests;
+			productReference = 2045A23A286A4DB100860FB3 /* KeyriSupabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2045A243286A4DB100860FB3 /* KeyriSupabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2045A254286A4DB100860FB3 /* Build configuration list for PBXNativeTarget "KeyriSupabaseUITests" */;
+			buildPhases = (
+				EE73A48A8223B511C0EE9D1A /* [CP] Check Pods Manifest.lock */,
+				2045A240286A4DB100860FB3 /* Sources */,
+				2045A241286A4DB100860FB3 /* Frameworks */,
+				2045A242286A4DB100860FB3 /* Resources */,
+				BB1F78F95576F1F9719A9D63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2045A246286A4DB100860FB3 /* PBXTargetDependency */,
+			);
+			name = KeyriSupabaseUITests;
+			productName = KeyriSupabaseUITests;
+			productReference = 2045A244286A4DB100860FB3 /* KeyriSupabaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2045A222286A4DB000860FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2045A229286A4DB000860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2045A239286A4DB100860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A229286A4DB000860FB3;
+					};
+					2045A243286A4DB100860FB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2045A229286A4DB000860FB3;
+					};
+				};
+			};
+			buildConfigurationList = 2045A225286A4DB000860FB3 /* Build configuration list for PBXProject "KeyriSupabase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2045A221286A4DB000860FB3;
+			productRefGroup = 2045A22B286A4DB000860FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2045A229286A4DB000860FB3 /* KeyriSupabase */,
+				2045A239286A4DB100860FB3 /* KeyriSupabaseTests */,
+				2045A243286A4DB100860FB3 /* KeyriSupabaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2045A228286A4DB000860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A235286A4DB100860FB3 /* Preview Assets.xcassets in Resources */,
+				2045A232286A4DB100860FB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A238286A4DB100860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A242286A4DB100860FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40A250F73B9A022377D83AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1F78F95576F1F9719A9D63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F2DC01DFA80EF9861F6B1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriSupabase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6802A0EC424FE620825354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriSupabaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE73A48A8223B511C0EE9D1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyriSupabase-KeyriSupabaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2045A226286A4DB000860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A230286A4DB000860FB3 /* ContentView.swift in Sources */,
+				2045A22E286A4DB000860FB3 /* KeyriSupabaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A236286A4DB100860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A23F286A4DB100860FB3 /* KeyriSupabaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2045A240286A4DB100860FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A249286A4DB100860FB3 /* KeyriSupabaseUITests.swift in Sources */,
+				2045A24B286A4DB100860FB3 /* KeyriSupabaseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2045A23C286A4DB100860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A229286A4DB000860FB3 /* KeyriSupabase */;
+			targetProxy = 2045A23B286A4DB100860FB3 /* PBXContainerItemProxy */;
+		};
+		2045A246286A4DB100860FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2045A229286A4DB000860FB3 /* KeyriSupabase */;
+			targetProxy = 2045A245286A4DB100860FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2045A24C286A4DB100860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2045A24D286A4DB100860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2045A24F286A4DB100860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503CEA936BBAB7F036855E8E /* Pods-KeyriSupabase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriSupabase/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriSupabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2045A250286A4DB100860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D473E4EEEBDEC996F93574BF /* Pods-KeyriSupabase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyriSupabase/Preview Content\"";
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriSupabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2045A252286A4DB100860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8143E0BCA4041592110F66E5 /* Pods-KeyriSupabaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriSupabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriSupabase.app/KeyriSupabase";
+			};
+			name = Debug;
+		};
+		2045A253286A4DB100860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFEEEF1C58D4E171E32D887 /* Pods-KeyriSupabaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriSupabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyriSupabase.app/KeyriSupabase";
+			};
+			name = Release;
+		};
+		2045A255286A4DB100860FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA25086539767FD05B5692DA /* Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriSupabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriSupabase;
+			};
+			name = Debug;
+		};
+		2045A256286A4DB100860FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB717240AF5AACF185A34FA3 /* Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B275BMKQL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyri.KeyriSupabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyriSupabase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2045A225286A4DB000860FB3 /* Build configuration list for PBXProject "KeyriSupabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A24C286A4DB100860FB3 /* Debug */,
+				2045A24D286A4DB100860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A24E286A4DB100860FB3 /* Build configuration list for PBXNativeTarget "KeyriSupabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A24F286A4DB100860FB3 /* Debug */,
+				2045A250286A4DB100860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A251286A4DB100860FB3 /* Build configuration list for PBXNativeTarget "KeyriSupabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A252286A4DB100860FB3 /* Debug */,
+				2045A253286A4DB100860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2045A254286A4DB100860FB3 /* Build configuration list for PBXNativeTarget "KeyriSupabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2045A255286A4DB100860FB3 /* Debug */,
+				2045A256286A4DB100860FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2045A222286A4DB000860FB3 /* Project object */;
+}

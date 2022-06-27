@@ -1,0 +1,1180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070FAAB07BAB2187C431D5953A207761 /* Pods-KeyriSupabase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B753C43C68FE51A4CE4608824E18059B /* Pods-KeyriSupabase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFAB372467C96A648B07DE2F23FF85D /* PostBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617294AB1833868D23E82A71FCEB929 /* PostBody.swift */; };
+		0EC1B3609657B04BF117284455700638 /* Keyri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E45B6890565E20BA7996C63659903 /* Keyri.swift */; };
+		0F589EFC5F18ADD13A40811698204041 /* Pods-KeyriSupabaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4422749D19763596C9C47F49AE48B0F6 /* Pods-KeyriSupabaseTests-dummy.m */; };
+		2045A259286A4E7200860FB3 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2045A258286A4E7200860FB3 /* Supabase */; };
+		2098A1CC69B61A807C9446EBEED322A5 /* KeyriService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6ABFDA6BBB1BD6CBAABB912E9FE6FA /* KeyriService.swift */; };
+		2DCED2AA5B29578D8AAEBA02861057DA /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E9EFAE5E40A4995FD6ECD8CD28759 /* QRCodeScanner.swift */; };
+		32843DA189C809D09F57271D8694B865 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CDF1AD4F16C93C95300481BD965A12 /* Config.swift */; };
+		33751A45E1D81C9E9969EFD552405115 /* keyri-pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB83C7D29CCB95FB31A957A91459BEC3 /* keyri-pod-dummy.m */; };
+		35F7C246D4D121977F56308A843F7E34 /* RiskAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F782AD88418617ED4309F21BDB4C56B1 /* RiskAnalytics.swift */; };
+		402959B1D1B793493F86A8AFC91BE7CF /* Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E415ACE1D7598FC5F165023C05211E4 /* Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44EE626A7913B57A65F9DDCB7384B480 /* keyri-pod-keyri-pod in Resources */ = {isa = PBXBuildFile; fileRef = DDA88F5C75F47ED0CE9919093C8D041D /* keyri-pod-keyri-pod */; };
+		4E2F15642A301F9776C81E0604D17049 /* EncryptionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584549A3A416FD27AD8E565FB31A17C /* EncryptionUtil.swift */; };
+		556C6006DF95572E4019CC734D5E5AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		55C697E68F75C2D856781949314FBA70 /* Pods-KeyriSupabase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE92D5DCD7EC0C45FA43B21FFA12BB0 /* Pods-KeyriSupabase-dummy.m */; };
+		5DED5DD732E351E0E3C4AC010009EFAB /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B7EA29B2BFE57132A6E55E40D51BC /* Scanner.swift */; };
+		6658AD2791C5423C5B62860D782E9A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68C8050D95C700BC639EE7CE8F345F24 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44B16E92984A4E1F4A0393D69DF5A /* SquareView.swift */; };
+		76CF09D2421B69F397DB06631840F63A /* GeoDataPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51948BD24C23BCBFCF8DB6454C74CB /* GeoDataPair.swift */; };
+		8AC8E7336C3B800854001FD9A2C44DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8A49DE7CB48511D239904970C5BCB1 /* Images.xcassets */; };
+		91286A05A9CCD22FAB55014FC16D5D29 /* Pods-KeyriSupabase-KeyriSupabaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B06CE207FC530B3C1C33A76392CAC51 /* Pods-KeyriSupabase-KeyriSupabaseUITests-dummy.m */; };
+		9143A9A58ABCEC7AC80C2755554E269A /* Pods-KeyriSupabaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DADD17F13102B211BFEAA9E00109D6 /* Pods-KeyriSupabaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B0180339077162AEDEDF104BB3C72EA /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8703A925DC5F64576A13CB5F7954E10 /* UIViewController+.swift */; };
+		A1E6D6BE7F375435042351CD53D20DDE /* keyri-pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70611218FD1AD1D4B9F22DF6D6A67414 /* keyri-pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0881D3A41F2052B0CC4D4495E48B16D /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E616CF14D3315637D740A6832AE44E /* Color+.swift */; };
+		B1AE0D977903222D7C83423D60E832C4 /* ConfirmationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6633E0807AEECCE42B16C3DF8BBCC8A /* ConfirmationScreen.swift */; };
+		BB34275078F89DB02BE969CCB5F58AD0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3BE7A8806338D84A70E32C75F7D89 /* Session.swift */; };
+		CD483B5F3539247BFB5526BF98079767 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752FBB1EB300CE58EA77AC7711B7E7EC /* Errors.swift */; };
+		CEFEC0974E7081DC8B6A474BB0530FA0 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DA218C5854029FC55371C556788C /* Keychain.swift */; };
+		DF266F183F5075A3B447434C4DC0C004 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76E86A0925881559D5DF43CAECAF894 /* UserService.swift */; };
+		E1ABFB8CC1F321249B46BE7AFFD9C30D /* WidgetUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294B5CC5B71926BA34794D38E5026D7 /* WidgetUserAgent.swift */; };
+		E3A2D73FE37C0BA95F1692AD4B42E41C /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642AD336E9F68227633238F5E0F960D5 /* LocationData.swift */; };
+		E9ED156AD73452FA99C941C9D1289641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EBD9ABEAF05BD50D65524B2839FD059A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FD98BC717921559767F3FB2314F8EB71 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FEFC611772D0B73213C1B39B16DBDE /* String+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2026CCCFB713A102C263C4082DD1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691063CB3C074949BBD81624B90759EB;
+			remoteInfo = "Pods-KeyriSupabase";
+		};
+		AD8B00978B1C13F42DF5D3FEA67F9BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E2369DC2E94FDA1D70D339F9F39A89;
+			remoteInfo = "keyri-pod";
+		};
+		B2D9BC502A551E58754CF86205DF91DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA200F0512E4B5557F1B50B4934A295;
+			remoteInfo = "keyri-pod-keyri-pod";
+		};
+		F0F289CDE019EC3F7EED59B0419D4D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E2369DC2E94FDA1D70D339F9F39A89;
+			remoteInfo = "keyri-pod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E9EFAE5E40A4995FD6ECD8CD28759 /* QRCodeScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeScanner.swift; path = "keyri-pod/Classes/Scanner/QRCodeScanner.swift"; sourceTree = "<group>"; };
+		06CDF1AD4F16C93C95300481BD965A12 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = "keyri-pod/Classes/Configs/Config.swift"; sourceTree = "<group>"; };
+		072E8506858584A2787E72C99A332F0A /* keyri-pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "keyri-pod.modulemap"; sourceTree = "<group>"; };
+		0ABB5384E66649506E489BC541C425F4 /* Pods-KeyriSupabase-KeyriSupabaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyriSupabase-KeyriSupabaseUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0B06CE207FC530B3C1C33A76392CAC51 /* Pods-KeyriSupabase-KeyriSupabaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyriSupabase-KeyriSupabaseUITests-dummy.m"; sourceTree = "<group>"; };
+		13F07C49DA2196A8951E44A2273926C3 /* keyri-pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "keyri-pod.release.xcconfig"; sourceTree = "<group>"; };
+		1820A7BE208C19C49CB5E160A05A024F /* Pods-KeyriSupabaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyriSupabaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EAB2188BB63B592A41EBC19D54C8208 /* keyri-pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "keyri-pod-prefix.pch"; sourceTree = "<group>"; };
+		1FD24D4DBB7F6C6955ABBBE38F0D1840 /* Pods-KeyriSupabaseTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyriSupabaseTests-Info.plist"; sourceTree = "<group>"; };
+		201E2B727335DB20E37D07878789403A /* ResourceBundle-keyri-pod-keyri-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-keyri-pod-keyri-pod-Info.plist"; sourceTree = "<group>"; };
+		31E616CF14D3315637D740A6832AE44E /* Color+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+.swift"; path = "keyri-pod/Classes/Utils/Color+.swift"; sourceTree = "<group>"; };
+		3D51948BD24C23BCBFCF8DB6454C74CB /* GeoDataPair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoDataPair.swift; path = "keyri-pod/Classes/Models/GeoDataPair.swift"; sourceTree = "<group>"; };
+		3E4E45B6890565E20BA7996C63659903 /* Keyri.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyri.swift; path = "keyri-pod/Classes/Keyri.swift"; sourceTree = "<group>"; };
+		4422749D19763596C9C47F49AE48B0F6 /* Pods-KeyriSupabaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyriSupabaseTests-dummy.m"; sourceTree = "<group>"; };
+		44DADD17F13102B211BFEAA9E00109D6 /* Pods-KeyriSupabaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyriSupabaseTests-umbrella.h"; sourceTree = "<group>"; };
+		491E97E94D0A40D10F3D140FD10C87D9 /* Pods-KeyriSupabase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyriSupabase.modulemap"; sourceTree = "<group>"; };
+		4E415ACE1D7598FC5F165023C05211E4 /* Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		4F014C679DEF2E65E8463DFE8B10A1F2 /* Pods-KeyriSupabaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyriSupabaseTests.modulemap"; sourceTree = "<group>"; };
+		531EB3CBCF510FCD9611F7691EE9B7AE /* Pods-KeyriSupabaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyriSupabaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55C5A9A83AB6648389A6CCFBBDD37461 /* Pods-KeyriSupabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyriSupabase.debug.xcconfig"; sourceTree = "<group>"; };
+		569B7EA29B2BFE57132A6E55E40D51BC /* Scanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scanner.swift; path = "keyri-pod/Classes/Scanner/Scanner.swift"; sourceTree = "<group>"; };
+		5970F5EFA68F5C2EA25763F02BAFA425 /* Pods-KeyriSupabase-KeyriSupabaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyriSupabase-KeyriSupabaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E07B53C4ABD25BF55ED130F88CF04C4 /* Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F351B7CD22C57F96B36C52E54965AF7 /* Pods-KeyriSupabase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyriSupabase-acknowledgements.plist"; sourceTree = "<group>"; };
+		642AD336E9F68227633238F5E0F960D5 /* LocationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationData.swift; path = "keyri-pod/Classes/Models/LocationData.swift"; sourceTree = "<group>"; };
+		6FE92D5DCD7EC0C45FA43B21FFA12BB0 /* Pods-KeyriSupabase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyriSupabase-dummy.m"; sourceTree = "<group>"; };
+		70611218FD1AD1D4B9F22DF6D6A67414 /* keyri-pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "keyri-pod-umbrella.h"; sourceTree = "<group>"; };
+		71C6AD3A7969231BA63131C301E6604A /* Pods-KeyriSupabase-KeyriSupabaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyriSupabase-KeyriSupabaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		721625BEB3A4BB79CAE258612F643987 /* Pods-KeyriSupabaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyriSupabaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		752FBB1EB300CE58EA77AC7711B7E7EC /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = "keyri-pod/Classes/Utils/Errors.swift"; sourceTree = "<group>"; };
+		7617294AB1833868D23E82A71FCEB929 /* PostBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostBody.swift; path = "keyri-pod/Classes/Models/PostBody.swift"; sourceTree = "<group>"; };
+		79ECD459463FDD59B28FB30F44E340A6 /* Pods-KeyriSupabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyriSupabase.release.xcconfig"; sourceTree = "<group>"; };
+		7ED3BE7A8806338D84A70E32C75F7D89 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = "keyri-pod/Classes/Models/Session.swift"; sourceTree = "<group>"; };
+		8294B5CC5B71926BA34794D38E5026D7 /* WidgetUserAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetUserAgent.swift; path = "keyri-pod/Classes/Models/WidgetUserAgent.swift"; sourceTree = "<group>"; };
+		86CF2BA9A296C486C73E640D58A0843D /* keyri-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "keyri-pod.debug.xcconfig"; sourceTree = "<group>"; };
+		88806912665FE8BE42363ADAA8F3618D /* Pods-KeyriSupabase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyriSupabase-frameworks.sh"; sourceTree = "<group>"; };
+		96397488A9F8648340044A1DF96B25B8 /* Pods-KeyriSupabase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyriSupabase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B6ABFDA6BBB1BD6CBAABB912E9FE6FA /* KeyriService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyriService.swift; path = "keyri-pod/Classes/Services/KeyriService.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FEFC611772D0B73213C1B39B16DBDE /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "keyri-pod/Classes/Utils/String+.swift"; sourceTree = "<group>"; };
+		A76E86A0925881559D5DF43CAECAF894 /* UserService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = "keyri-pod/Classes/Services/UserService.swift"; sourceTree = "<group>"; };
+		B16F10B0734A3A32A4F5D17CE685F5EC /* Pods-KeyriSupabase-KeyriSupabaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyriSupabase-KeyriSupabaseUITests.modulemap"; sourceTree = "<group>"; };
+		B1E44B16E92984A4E1F4A0393D69DF5A /* SquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareView.swift; path = "keyri-pod/Classes/Scanner/SquareView.swift"; sourceTree = "<group>"; };
+		B4FB6F45CDA153E2EF137B122FB64B51 /* Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B753C43C68FE51A4CE4608824E18059B /* Pods-KeyriSupabase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyriSupabase-umbrella.h"; sourceTree = "<group>"; };
+		C3F44FA2720F8D7387BDD1AA57CF5D61 /* keyri-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "keyri-pod-Info.plist"; sourceTree = "<group>"; };
+		C584549A3A416FD27AD8E565FB31A17C /* EncryptionUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncryptionUtil.swift; path = "keyri-pod/Classes/Utils/EncryptionUtil.swift"; sourceTree = "<group>"; };
+		C8703A925DC5F64576A13CB5F7954E10 /* UIViewController+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "keyri-pod/Classes/Utils/UIViewController+.swift"; sourceTree = "<group>"; };
+		C929E33164313C18C1D55C00545A17B8 /* Pods-KeyriSupabase-KeyriSupabaseUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyriSupabase-KeyriSupabaseUITests-Info.plist"; sourceTree = "<group>"; };
+		CB8A49DE7CB48511D239904970C5BCB1 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "keyri-pod/Assets/Images.xcassets"; sourceTree = "<group>"; };
+		CD0AD0104A9520B772D59F98662855ED /* Pods-KeyriSupabaseTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyriSupabaseTests"; path = Pods_KeyriSupabaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04F09A66CE99456ECCCED5E210AD19 /* Pods-KeyriSupabaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyriSupabaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDA88F5C75F47ED0CE9919093C8D041D /* keyri-pod-keyri-pod */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "keyri-pod-keyri-pod"; path = "keyri-pod.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD3DA218C5854029FC55371C556788C /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = "keyri-pod/Classes/Keychain/Keychain.swift"; sourceTree = "<group>"; };
+		F6633E0807AEECCE42B16C3DF8BBCC8A /* ConfirmationScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmationScreen.swift; path = "keyri-pod/Classes/Utils/ConfirmationScreen.swift"; sourceTree = "<group>"; };
+		F76D824957E5E6F2EE34837E143522BB /* Pods-KeyriSupabase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyriSupabase-Info.plist"; sourceTree = "<group>"; };
+		F782AD88418617ED4309F21BDB4C56B1 /* RiskAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RiskAnalytics.swift; path = "keyri-pod/Classes/Models/RiskAnalytics.swift"; sourceTree = "<group>"; };
+		FB83C7D29CCB95FB31A957A91459BEC3 /* keyri-pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "keyri-pod-dummy.m"; sourceTree = "<group>"; };
+		FCC2DEF6EB785A55FC1BB8FD5DB47699 /* Pods-KeyriSupabase-KeyriSupabaseUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyriSupabase-KeyriSupabaseUITests"; path = Pods_KeyriSupabase_KeyriSupabaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE27EC2E530E2B3BBB4E0AAA967A4029 /* Pods-KeyriSupabase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyriSupabase"; path = Pods_KeyriSupabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3FA24D715BC48516279ADFA21C8B14 /* keyri-pod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "keyri-pod"; path = keyri_pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0924EC4320FC052C230061B85517310E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045A259286A4E7200860FB3 /* Supabase in Frameworks */,
+				EBD9ABEAF05BD50D65524B2839FD059A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365475B7901857503455D631C0AEFF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ED156AD73452FA99C941C9D1289641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479C5F0216C96594691395615908FB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556C6006DF95572E4019CC734D5E5AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B6BECFBF4241E55DF2DA80D3746F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B375611A39029CC0580BACF889BF48BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6658AD2791C5423C5B62860D782E9A08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48073B79AC9C270CD013499E5A146745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				072E8506858584A2787E72C99A332F0A /* keyri-pod.modulemap */,
+				FB83C7D29CCB95FB31A957A91459BEC3 /* keyri-pod-dummy.m */,
+				C3F44FA2720F8D7387BDD1AA57CF5D61 /* keyri-pod-Info.plist */,
+				1EAB2188BB63B592A41EBC19D54C8208 /* keyri-pod-prefix.pch */,
+				70611218FD1AD1D4B9F22DF6D6A67414 /* keyri-pod-umbrella.h */,
+				86CF2BA9A296C486C73E640D58A0843D /* keyri-pod.debug.xcconfig */,
+				13F07C49DA2196A8951E44A2273926C3 /* keyri-pod.release.xcconfig */,
+				201E2B727335DB20E37D07878789403A /* ResourceBundle-keyri-pod-keyri-pod-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/keyri-pod";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66B3D2D2AEEB5D3DAB04365B2DF10780 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB8A49DE7CB48511D239904970C5BCB1 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B784730FEFD3103EC58E5343C7865EC /* Pods-KeyriSupabase-KeyriSupabaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B16F10B0734A3A32A4F5D17CE685F5EC /* Pods-KeyriSupabase-KeyriSupabaseUITests.modulemap */,
+				71C6AD3A7969231BA63131C301E6604A /* Pods-KeyriSupabase-KeyriSupabaseUITests-acknowledgements.markdown */,
+				5970F5EFA68F5C2EA25763F02BAFA425 /* Pods-KeyriSupabase-KeyriSupabaseUITests-acknowledgements.plist */,
+				0B06CE207FC530B3C1C33A76392CAC51 /* Pods-KeyriSupabase-KeyriSupabaseUITests-dummy.m */,
+				0ABB5384E66649506E489BC541C425F4 /* Pods-KeyriSupabase-KeyriSupabaseUITests-frameworks.sh */,
+				C929E33164313C18C1D55C00545A17B8 /* Pods-KeyriSupabase-KeyriSupabaseUITests-Info.plist */,
+				4E415ACE1D7598FC5F165023C05211E4 /* Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h */,
+				B4FB6F45CDA153E2EF137B122FB64B51 /* Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig */,
+				5E07B53C4ABD25BF55ED130F88CF04C4 /* Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig */,
+			);
+			name = "Pods-KeyriSupabase-KeyriSupabaseUITests";
+			path = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests";
+			sourceTree = "<group>";
+		};
+		9949D0581842C66D20898C59C6BF05F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3FA24D715BC48516279ADFA21C8B14 /* keyri-pod */,
+				DDA88F5C75F47ED0CE9919093C8D041D /* keyri-pod-keyri-pod */,
+				FE27EC2E530E2B3BBB4E0AAA967A4029 /* Pods-KeyriSupabase */,
+				FCC2DEF6EB785A55FC1BB8FD5DB47699 /* Pods-KeyriSupabase-KeyriSupabaseUITests */,
+				CD0AD0104A9520B772D59F98662855ED /* Pods-KeyriSupabaseTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D9988D8DBCA483EF4BBDDFCC8664C23 /* Pods-KeyriSupabase */ = {
+			isa = PBXGroup;
+			children = (
+				491E97E94D0A40D10F3D140FD10C87D9 /* Pods-KeyriSupabase.modulemap */,
+				96397488A9F8648340044A1DF96B25B8 /* Pods-KeyriSupabase-acknowledgements.markdown */,
+				5F351B7CD22C57F96B36C52E54965AF7 /* Pods-KeyriSupabase-acknowledgements.plist */,
+				6FE92D5DCD7EC0C45FA43B21FFA12BB0 /* Pods-KeyriSupabase-dummy.m */,
+				88806912665FE8BE42363ADAA8F3618D /* Pods-KeyriSupabase-frameworks.sh */,
+				F76D824957E5E6F2EE34837E143522BB /* Pods-KeyriSupabase-Info.plist */,
+				B753C43C68FE51A4CE4608824E18059B /* Pods-KeyriSupabase-umbrella.h */,
+				55C5A9A83AB6648389A6CCFBBDD37461 /* Pods-KeyriSupabase.debug.xcconfig */,
+				79ECD459463FDD59B28FB30F44E340A6 /* Pods-KeyriSupabase.release.xcconfig */,
+			);
+			name = "Pods-KeyriSupabase";
+			path = "Target Support Files/Pods-KeyriSupabase";
+			sourceTree = "<group>";
+		};
+		A07394F2259AF127F3F8AC18A4212A09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9988D8DBCA483EF4BBDDFCC8664C23 /* Pods-KeyriSupabase */,
+				8B784730FEFD3103EC58E5343C7865EC /* Pods-KeyriSupabase-KeyriSupabaseUITests */,
+				AB842CA68B5D6034DA1338ED873C6DB8 /* Pods-KeyriSupabaseTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB842CA68B5D6034DA1338ED873C6DB8 /* Pods-KeyriSupabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F014C679DEF2E65E8463DFE8B10A1F2 /* Pods-KeyriSupabaseTests.modulemap */,
+				531EB3CBCF510FCD9611F7691EE9B7AE /* Pods-KeyriSupabaseTests-acknowledgements.markdown */,
+				CF04F09A66CE99456ECCCED5E210AD19 /* Pods-KeyriSupabaseTests-acknowledgements.plist */,
+				4422749D19763596C9C47F49AE48B0F6 /* Pods-KeyriSupabaseTests-dummy.m */,
+				1FD24D4DBB7F6C6955ABBBE38F0D1840 /* Pods-KeyriSupabaseTests-Info.plist */,
+				44DADD17F13102B211BFEAA9E00109D6 /* Pods-KeyriSupabaseTests-umbrella.h */,
+				1820A7BE208C19C49CB5E160A05A024F /* Pods-KeyriSupabaseTests.debug.xcconfig */,
+				721625BEB3A4BB79CAE258612F643987 /* Pods-KeyriSupabaseTests.release.xcconfig */,
+			);
+			name = "Pods-KeyriSupabaseTests";
+			path = "Target Support Files/Pods-KeyriSupabaseTests";
+			sourceTree = "<group>";
+		};
+		C7C0A71D481AC2BF7DC26EFD896AFCF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE923C7FC4B726666808146FC43343CA /* keyri-pod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE923C7FC4B726666808146FC43343CA /* keyri-pod */ = {
+			isa = PBXGroup;
+			children = (
+				31E616CF14D3315637D740A6832AE44E /* Color+.swift */,
+				06CDF1AD4F16C93C95300481BD965A12 /* Config.swift */,
+				F6633E0807AEECCE42B16C3DF8BBCC8A /* ConfirmationScreen.swift */,
+				C584549A3A416FD27AD8E565FB31A17C /* EncryptionUtil.swift */,
+				752FBB1EB300CE58EA77AC7711B7E7EC /* Errors.swift */,
+				3D51948BD24C23BCBFCF8DB6454C74CB /* GeoDataPair.swift */,
+				ECD3DA218C5854029FC55371C556788C /* Keychain.swift */,
+				3E4E45B6890565E20BA7996C63659903 /* Keyri.swift */,
+				9B6ABFDA6BBB1BD6CBAABB912E9FE6FA /* KeyriService.swift */,
+				642AD336E9F68227633238F5E0F960D5 /* LocationData.swift */,
+				7617294AB1833868D23E82A71FCEB929 /* PostBody.swift */,
+				012E9EFAE5E40A4995FD6ECD8CD28759 /* QRCodeScanner.swift */,
+				F782AD88418617ED4309F21BDB4C56B1 /* RiskAnalytics.swift */,
+				569B7EA29B2BFE57132A6E55E40D51BC /* Scanner.swift */,
+				7ED3BE7A8806338D84A70E32C75F7D89 /* Session.swift */,
+				B1E44B16E92984A4E1F4A0393D69DF5A /* SquareView.swift */,
+				A3FEFC611772D0B73213C1B39B16DBDE /* String+.swift */,
+				C8703A925DC5F64576A13CB5F7954E10 /* UIViewController+.swift */,
+				A76E86A0925881559D5DF43CAECAF894 /* UserService.swift */,
+				8294B5CC5B71926BA34794D38E5026D7 /* WidgetUserAgent.swift */,
+				66B3D2D2AEEB5D3DAB04365B2DF10780 /* Resources */,
+				48073B79AC9C270CD013499E5A146745 /* Support Files */,
+			);
+			path = "keyri-pod";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C7C0A71D481AC2BF7DC26EFD896AFCF6 /* Pods */,
+				9949D0581842C66D20898C59C6BF05F5 /* Products */,
+				A07394F2259AF127F3F8AC18A4212A09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39717994CCC88F4CC2BD3D7D5ED677A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9143A9A58ABCEC7AC80C2755554E269A /* Pods-KeyriSupabaseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74425D34C7813653581DE7E16FF5E89B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E6D6BE7F375435042351CD53D20DDE /* keyri-pod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC199E15EC7EDB32910DB12F4D68329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402959B1D1B793493F86A8AFC91BE7CF /* Pods-KeyriSupabase-KeyriSupabaseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED7C458D06499058C7E65BA7350B965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070FAAB07BAB2187C431D5953A207761 /* Pods-KeyriSupabase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AA200F0512E4B5557F1B50B4934A295 /* keyri-pod-keyri-pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED8CD5023F237E00278A9336F55922C /* Build configuration list for PBXNativeTarget "keyri-pod-keyri-pod" */;
+			buildPhases = (
+				728384FB0DC08F469A43F1D0011392BB /* Sources */,
+				A2B6BECFBF4241E55DF2DA80D3746F08 /* Frameworks */,
+				E48C601F984F058061A9B9ABA7C16876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "keyri-pod-keyri-pod";
+			productName = "keyri-pod";
+			productReference = DDA88F5C75F47ED0CE9919093C8D041D /* keyri-pod-keyri-pod */;
+			productType = "com.apple.product-type.bundle";
+		};
+		691063CB3C074949BBD81624B90759EB /* Pods-KeyriSupabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6939BDAE9D6FCC69DDBF94CA0E4CED /* Build configuration list for PBXNativeTarget "Pods-KeyriSupabase" */;
+			buildPhases = (
+				CED7C458D06499058C7E65BA7350B965 /* Headers */,
+				623A6692E10B5ACB91E537E0D6E65388 /* Sources */,
+				B375611A39029CC0580BACF889BF48BD /* Frameworks */,
+				B7EA2778C9351DD8D0F9F008BC0A887F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D31E719C0D88BCF1D4257A67FB59A8A /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyriSupabase";
+			productName = Pods_KeyriSupabase;
+			productReference = FE27EC2E530E2B3BBB4E0AAA967A4029 /* Pods-KeyriSupabase */;
+			productType = "com.apple.product-type.framework";
+		};
+		A663055FC2FC2DD0F2F8317E654B4038 /* Pods-KeyriSupabase-KeyriSupabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412ACF8F4E6ABFE1D09AFDB6397136E6 /* Build configuration list for PBXNativeTarget "Pods-KeyriSupabase-KeyriSupabaseUITests" */;
+			buildPhases = (
+				8EC199E15EC7EDB32910DB12F4D68329 /* Headers */,
+				C70C2A45E7B4916EA5B1BA2B77814628 /* Sources */,
+				365475B7901857503455D631C0AEFF46 /* Frameworks */,
+				82416122435143163270783B075B0884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75259B3AB01A5E1772D3BC65C5392EA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyriSupabase-KeyriSupabaseUITests";
+			productName = Pods_KeyriSupabase_KeyriSupabaseUITests;
+			productReference = FCC2DEF6EB785A55FC1BB8FD5DB47699 /* Pods-KeyriSupabase-KeyriSupabaseUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CABBDDEDBC5FC9CA8AB5C07D40B1A6 /* Build configuration list for PBXNativeTarget "keyri-pod" */;
+			buildPhases = (
+				74425D34C7813653581DE7E16FF5E89B /* Headers */,
+				C407A5415E38E4B31CF086ED5163E3C8 /* Sources */,
+				0924EC4320FC052C230061B85517310E /* Frameworks */,
+				69EF3886279BABC769C185DB7C45D114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04ED5B1C1E9989E7612F9B48A61B6BC /* PBXTargetDependency */,
+			);
+			name = "keyri-pod";
+			packageProductDependencies = (
+				2045A258286A4E7200860FB3 /* Supabase */,
+			);
+			productName = keyri_pod;
+			productReference = FF3FA24D715BC48516279ADFA21C8B14 /* keyri-pod */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4F0409842EE8CBEE5DDEFB27F856DDB /* Pods-KeyriSupabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51274E075AE57021ACE1DCE1BF86CD58 /* Build configuration list for PBXNativeTarget "Pods-KeyriSupabaseTests" */;
+			buildPhases = (
+				39717994CCC88F4CC2BD3D7D5ED677A1 /* Headers */,
+				54A251529B8247C9B5C02569304FF5BE /* Sources */,
+				479C5F0216C96594691395615908FB52 /* Frameworks */,
+				0ED154357222C29E64744E26C85AF747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF4E6FA80DE1E14A76D3F560BF0CD57 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyriSupabaseTests";
+			productName = Pods_KeyriSupabaseTests;
+			productReference = CD0AD0104A9520B772D59F98662855ED /* Pods-KeyriSupabaseTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				2045A257286A4E7200860FB3 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = 9949D0581842C66D20898C59C6BF05F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */,
+				1AA200F0512E4B5557F1B50B4934A295 /* keyri-pod-keyri-pod */,
+				691063CB3C074949BBD81624B90759EB /* Pods-KeyriSupabase */,
+				A663055FC2FC2DD0F2F8317E654B4038 /* Pods-KeyriSupabase-KeyriSupabaseUITests */,
+				F4F0409842EE8CBEE5DDEFB27F856DDB /* Pods-KeyriSupabaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ED154357222C29E64744E26C85AF747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EF3886279BABC769C185DB7C45D114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EE626A7913B57A65F9DDCB7384B480 /* keyri-pod-keyri-pod in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82416122435143163270783B075B0884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EA2778C9351DD8D0F9F008BC0A887F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48C601F984F058061A9B9ABA7C16876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC8E7336C3B800854001FD9A2C44DB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A251529B8247C9B5C02569304FF5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F589EFC5F18ADD13A40811698204041 /* Pods-KeyriSupabaseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623A6692E10B5ACB91E537E0D6E65388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C697E68F75C2D856781949314FBA70 /* Pods-KeyriSupabase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728384FB0DC08F469A43F1D0011392BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C407A5415E38E4B31CF086ED5163E3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0881D3A41F2052B0CC4D4495E48B16D /* Color+.swift in Sources */,
+				32843DA189C809D09F57271D8694B865 /* Config.swift in Sources */,
+				B1AE0D977903222D7C83423D60E832C4 /* ConfirmationScreen.swift in Sources */,
+				4E2F15642A301F9776C81E0604D17049 /* EncryptionUtil.swift in Sources */,
+				CD483B5F3539247BFB5526BF98079767 /* Errors.swift in Sources */,
+				76CF09D2421B69F397DB06631840F63A /* GeoDataPair.swift in Sources */,
+				CEFEC0974E7081DC8B6A474BB0530FA0 /* Keychain.swift in Sources */,
+				0EC1B3609657B04BF117284455700638 /* Keyri.swift in Sources */,
+				33751A45E1D81C9E9969EFD552405115 /* keyri-pod-dummy.m in Sources */,
+				2098A1CC69B61A807C9446EBEED322A5 /* KeyriService.swift in Sources */,
+				E3A2D73FE37C0BA95F1692AD4B42E41C /* LocationData.swift in Sources */,
+				0BFAB372467C96A648B07DE2F23FF85D /* PostBody.swift in Sources */,
+				2DCED2AA5B29578D8AAEBA02861057DA /* QRCodeScanner.swift in Sources */,
+				35F7C246D4D121977F56308A843F7E34 /* RiskAnalytics.swift in Sources */,
+				5DED5DD732E351E0E3C4AC010009EFAB /* Scanner.swift in Sources */,
+				BB34275078F89DB02BE969CCB5F58AD0 /* Session.swift in Sources */,
+				68C8050D95C700BC639EE7CE8F345F24 /* SquareView.swift in Sources */,
+				FD98BC717921559767F3FB2314F8EB71 /* String+.swift in Sources */,
+				9B0180339077162AEDEDF104BB3C72EA /* UIViewController+.swift in Sources */,
+				DF266F183F5075A3B447434C4DC0C004 /* UserService.swift in Sources */,
+				E1ABFB8CC1F321249B46BE7AFFD9C30D /* WidgetUserAgent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70C2A45E7B4916EA5B1BA2B77814628 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91286A05A9CCD22FAB55014FC16D5D29 /* Pods-KeyriSupabase-KeyriSupabaseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DF4E6FA80DE1E14A76D3F560BF0CD57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeyriSupabase";
+			target = 691063CB3C074949BBD81624B90759EB /* Pods-KeyriSupabase */;
+			targetProxy = 2B2026CCCFB713A102C263C4082DD1BE /* PBXContainerItemProxy */;
+		};
+		3D31E719C0D88BCF1D4257A67FB59A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "keyri-pod";
+			target = C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */;
+			targetProxy = F0F289CDE019EC3F7EED59B0419D4D9F /* PBXContainerItemProxy */;
+		};
+		75259B3AB01A5E1772D3BC65C5392EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "keyri-pod";
+			target = C9E2369DC2E94FDA1D70D339F9F39A89 /* keyri-pod */;
+			targetProxy = AD8B00978B1C13F42DF5D3FEA67F9BC2 /* PBXContainerItemProxy */;
+		};
+		B04ED5B1C1E9989E7612F9B48A61B6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "keyri-pod-keyri-pod";
+			target = 1AA200F0512E4B5557F1B50B4934A295 /* keyri-pod-keyri-pod */;
+			targetProxy = B2D9BC502A551E58754CF86205DF91DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		122D5414E2F9A6784F6F8DD086602D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F07C49DA2196A8951E44A2273926C3 /* keyri-pod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/keyri-pod/keyri-pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/keyri-pod/keyri-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/keyri-pod/keyri-pod.modulemap";
+				PRODUCT_MODULE_NAME = keyri_pod;
+				PRODUCT_NAME = keyri_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23629C82AC131E3632EED491ABA4AF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C5A9A83AB6648389A6CCFBBDD37461 /* Pods-KeyriSupabase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27EF7DAFE0B42F30BAC761D29453CC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721625BEB3A4BB79CAE258612F643987 /* Pods-KeyriSupabaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyriSupabaseTests/Pods-KeyriSupabaseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyriSupabaseTests/Pods-KeyriSupabaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53282CF698909DA6015405AC4B4538A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E07B53C4ABD25BF55ED130F88CF04C4 /* Pods-KeyriSupabase-KeyriSupabaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		575298ED25E6926FF0D17B9AF309D6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1820A7BE208C19C49CB5E160A05A024F /* Pods-KeyriSupabaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyriSupabaseTests/Pods-KeyriSupabaseTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyriSupabaseTests/Pods-KeyriSupabaseTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D65FEA770EC53E952F473A797365DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CF2BA9A296C486C73E640D58A0843D /* keyri-pod.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/keyri-pod";
+				IBSC_MODULE = keyri_pod;
+				INFOPLIST_FILE = "Target Support Files/keyri-pod/ResourceBundle-keyri-pod-keyri-pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "keyri-pod";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8B1B03CADA3924F2F9C8FD486D60DD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F07C49DA2196A8951E44A2273926C3 /* keyri-pod.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/keyri-pod";
+				IBSC_MODULE = keyri_pod;
+				INFOPLIST_FILE = "Target Support Files/keyri-pod/ResourceBundle-keyri-pod-keyri-pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "keyri-pod";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A40920F0BA5C840CC1FE54279F60CE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79ECD459463FDD59B28FB30F44E340A6 /* Pods-KeyriSupabase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyriSupabase/Pods-KeyriSupabase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7FF6B759CE1C248E6B83B5DD7525D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FB6F45CDA153E2EF137B122FB64B51 /* Pods-KeyriSupabase-KeyriSupabaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyriSupabase-KeyriSupabaseUITests/Pods-KeyriSupabase-KeyriSupabaseUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE36D635FE4516A833676A98395ABDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CF2BA9A296C486C73E640D58A0843D /* keyri-pod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/keyri-pod/keyri-pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/keyri-pod/keyri-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/keyri-pod/keyri-pod.modulemap";
+				PRODUCT_MODULE_NAME = keyri_pod;
+				PRODUCT_NAME = keyri_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412ACF8F4E6ABFE1D09AFDB6397136E6 /* Build configuration list for PBXNativeTarget "Pods-KeyriSupabase-KeyriSupabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FF6B759CE1C248E6B83B5DD7525D2F /* Debug */,
+				53282CF698909DA6015405AC4B4538A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CABBDDEDBC5FC9CA8AB5C07D40B1A6 /* Build configuration list for PBXNativeTarget "keyri-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE36D635FE4516A833676A98395ABDFA /* Debug */,
+				122D5414E2F9A6784F6F8DD086602D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51274E075AE57021ACE1DCE1BF86CD58 /* Build configuration list for PBXNativeTarget "Pods-KeyriSupabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575298ED25E6926FF0D17B9AF309D6B7 /* Debug */,
+				27EF7DAFE0B42F30BAC761D29453CC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED8CD5023F237E00278A9336F55922C /* Build configuration list for PBXNativeTarget "keyri-pod-keyri-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D65FEA770EC53E952F473A797365DB6 /* Debug */,
+				8B1B03CADA3924F2F9C8FD486D60DD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6939BDAE9D6FCC69DDBF94CA0E4CED /* Build configuration list for PBXNativeTarget "Pods-KeyriSupabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23629C82AC131E3632EED491ABA4AF57 /* Debug */,
+				A40920F0BA5C840CC1FE54279F60CE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2045A257286A4E7200860FB3 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2045A258286A4E7200860FB3 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2045A257286A4E7200860FB3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
